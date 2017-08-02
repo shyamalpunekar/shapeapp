@@ -20,4 +20,8 @@ public class Rectangle {
     public int getWidth() {
         return width;
     }
+
+    public boolean isSquare() {
+        return height==width;
+    }
 }

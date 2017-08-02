@@ -31,4 +31,10 @@ public class RectangleTest {
 
     }
 
+    @Test
+    public void isSquare_whenNotASquare_false() {
+        Rectangle testRectangle = new Rectangle(2, 4);
+        assertEquals(false, testRectangle.isSquare());
+    }
+
 }
