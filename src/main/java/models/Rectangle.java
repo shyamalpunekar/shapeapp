@@ -5,12 +5,14 @@ package models;
  */
 public class Rectangle {
 
-    public Rectangle(int height , int width){
+    private int height;
 
+    public Rectangle(int height , int width){
+        this.height = height;
     }
 
     public int getHeight(){
-        return 0;
+        return height;
     }
 
 }
